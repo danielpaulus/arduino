@@ -16,6 +16,8 @@ void setup() {
   pinMode(firepin, OUTPUT);
     digitalWrite(firepin, LOW);
 }
+
+//minus auf grün, plus auf blau
 //button a:  17745
 //DIP switch: on,off,on,off,off
 int receivedValue;
